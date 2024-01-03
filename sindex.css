@@ -13,8 +13,8 @@
 .navcontainer{
 
     width: vw;
-    border: 2px solid black;
-    height 3rem;
+    /* border: 2px solid black; */
+    height: 4rem;
     padding: .4rem;
     display: flex;
     justify-content: space-between;
@@ -29,13 +29,15 @@
     /* border: 2px solid black; */
 }
 .c2{
-    width : 20rem;
-    height: auto;
-    padding: .5rem;
-    border: 2px solid black;
+    width : 45rem;
+    height: 4rem;
+    padding: 5px;
+    /* border: 2px solid black; */
     display: flex;
-    /* justify-content: space-evenly;
-    align-items: center; */
+    /* background-color: rgb(215, 212, 212); */
+    
+    justify-content: space-between;
+    align-items: center; 
 
 }
 .c3{
@@ -74,31 +76,79 @@
 
     width: 1rem;
     scale: .25;
+    mix-blend-mode: multiply;
 
 }
 .icon1{
     scale: 1.5;
 }
 .search{
-    scale: .1;
-    width: 2rem;
+    /* scale: .1; */
+    width: 30rem;
 }
-#searchicons{
-    display: flex;
-    justify-content: space-around;
-    scale: .4;
-    width: 4rem;
-}
+
 .searchbar{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5rem;
+    width: 40rem;
+    margin: 10px;
+    /* padding: 10px; */
+    border-radius: 1.5rem;
+    border: 1px solid black;
+    overflow: hidden;
     
 }
+.button{
+    width: auto;
+    height: 4rem;
+    /* margin-left: 6rem; */
+    align-items: center;
+    /* background-color: lightgray; */
+
+
+}
 #b1{
-    scale: .08;
     mix-blend-mode: multiply;
+    width: 3.8rem;
+    height: 3.9rem;
+    border-style: none;
+    outline: none;
+
+    scale: .9;
 
 }
 #s1{
-    scale: 12;
-    width: 15rem;
+    height: 4rem;
+    width: 40rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    border-style: none;
+    outline: none;
+}
+#m1{
+    width: 2.4rem;
+    height: 2.3rem;
+    align-items: center;
+    /* border-radius: 5rem; */
+    /* background-color: rgb(215, 212, 212); */
+    /* padding: 2px; */
+    scale: .4;
+    /* padding: 10px; */
+    
+}
+#b2{
+    /* border-style: none; */
+    /* outline: none; */
+}
+.mic_icon{
+    background-color: rgba(228, 228, 228, 0.785);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    align-items: center;
+    /* padding: 9px; */
+    overflow: hidden;
+    
 }
