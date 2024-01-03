@@ -115,7 +115,7 @@
     height: 3.9rem;
     /* border-style: none;
     outline: none; */
-
+    cursor: pointer;
     scale: .9;
 
 }
@@ -135,6 +135,7 @@
     /* background-color: rgb(215, 212, 212); */
     /* padding: 2px; */
     scale: .4;
+    cursor: pointer;
     /* padding: 10px; */
     
 }
@@ -146,20 +147,22 @@
      width: 2.25rem;
      border: none;
      outline: none;
+     cursor: pointer;
 }
-#b2:focus{
+/* #b2:focus{
 
     outline: 0;
 
-}
+} */
 .mic_icon{
     background-color: rgba(228, 228, 228, 0.785);
     width: 2.5rem;
     height: 2.5rem;
-    border: none;
+    border: none; 
     outline: none;
     border-radius: 2rem;
     align-items: center;
+    
     /* padding: 9px; */
     overflow: hidden;
     /* border: 2px solid black; */
