@@ -1,0 +1,24 @@
+
+.screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    
+    
+
+}
+.leftbox{
+
+    border: 2px solid black;
+    width: 15%;
+
+}
+
+.rightbox{
+
+    border: 2px solid black;
+    width: 85%;
+
+}
